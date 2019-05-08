@@ -137,11 +137,11 @@ methodCollection.logHello();
 */
 
 //Code Here
-function makePerson(namestr, birthdaystr, ssnstr){
+function makePerson(name, birthday, ssn){
   return {
-    name: namestr,
-    birthday: birthdaystr,
-    ssn: ssnstr
+    name,
+    birthday,
+    ssn
   }
 }
 ////////// PROBLEM 7 //////////
@@ -152,10 +152,10 @@ function makePerson(namestr, birthdaystr, ssnstr){
 */
 
 //Code Here
-function makeCard(cardNumberStr, expirationDateStr, securityCodeStr){
+function makeCard(cardNumber, expirationDate, securityCode){
   return {
-    cardNumber: cardNumberStr,
-    expirationDate: expirationDateStr,
-    securityCode: securityCodeStr
+    cardNumber,
+    expirationDate,
+    securityCode
   }
 }
