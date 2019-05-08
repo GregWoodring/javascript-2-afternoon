@@ -137,7 +137,13 @@ methodCollection.logHello();
 */
 
 //Code Here
-
+function makePerson(namestr, birthdaystr, ssnstr){
+  return {
+    name: namestr,
+    birthday: birthdaystr,
+    ssn: ssnstr
+  }
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -146,3 +152,10 @@ methodCollection.logHello();
 */
 
 //Code Here
+function makeCard(cardNumberStr, expirationDateStr, securityCodeStr){
+  return {
+    cardNumber: cardNumberStr,
+    expirationDate: expirationDateStr,
+    securityCode, securityCodeStr
+  }
+}
