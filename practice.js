@@ -156,6 +156,6 @@ function makeCard(cardNumberStr, expirationDateStr, securityCodeStr){
   return {
     cardNumber: cardNumberStr,
     expirationDate: expirationDateStr,
-    securityCode, securityCodeStr
+    securityCode: securityCodeStr
   }
 }
